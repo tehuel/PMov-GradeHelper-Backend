@@ -24,7 +24,7 @@ class UpdateStudentRequest extends FormRequest
       return [
           'first_name' => 'nullable|string|max:255',
           'last_name' => 'nullable|string|max:255',
-          'githubUsername' => 'nullable|unique:students',
+          'github_username' => 'nullable|unique:students',
           'user_id' => 'nullable|exists:users,id',
           'course_id' => 'nullable|exists:courses,id',
       ];

@@ -16,7 +16,7 @@ class Student extends Model
     protected $fillable = [
         'first_name',
         'last_name',
-        'githubUsername',
+        'github_username',
         'course_id',
         'user_id',
     ];
